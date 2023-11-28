@@ -1,0 +1,59 @@
+.new-collections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    /* height: 135vh; */
+    margin-bottom: 100px;
+    border: 2px solid;
+    margin-top: -80px;
+
+}
+
+.new-collections h1 {
+    color: hsl(0, 0%, 9%);
+    font-size: 50px;
+    font-weight: 600;
+
+}
+
+.new-collections hr {
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+
+}
+
+.collections .item {
+    width: 177px;
+}
+
+.collections {
+    display: grid;
+    /* margin-top: 50px;
+    display: flex;
+    height: 50px;
+    width: 250px;
+    border: 3px solid red; */
+
+    /* text-align: center; */
+    width: 177px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    justify-content: center;
+    /* border: 10px solid; */
+
+}
+
+
+.collections img {
+
+    height: 200px;
+
+
+}
+
+/* .popular-item name {
+    border: 10px solid;
+} */
